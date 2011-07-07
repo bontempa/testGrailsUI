@@ -90,7 +90,7 @@
 			</ul>
 			<h1>Installed Plugins</h1>
 			<ul>
-				<g:set var="pluginManager" value="${applicationContext.getBean('pluginManager')}"/>
+				<g:set var="pluginManagerggg" value="${applicationContext.getBean('pluginManager')}"/>
 				<g:each var="plugin" in="${pluginManager.allPlugins}">
 					<li>${plugin.name} - ${plugin.version}</li>
 				</g:each>
